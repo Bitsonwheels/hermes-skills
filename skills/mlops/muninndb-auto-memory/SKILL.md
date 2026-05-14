@@ -1,7 +1,7 @@
 ---
 name: muninndb-auto-memory
 description: "Proaktive Nutzung von MuninnDB als Memory-Schicht via MCP. Immer laden — kein manuelles Triggering noetig."
-version: 1.1.0
+version: 1.1.1
 clawhub: Bitsonwheels/muninndb-auto-memory
 ---
 
