@@ -14,7 +14,7 @@
 | Tools | 39 (`mcp_muninndb_muninn_*`) |
 | Hermes Memory Provider | `built-in` (Honcho deaktiviert) |
 
-## Config-Aenderungen (`~/.hermes/config.yaml`)
+## Config-Anpassungen (Hermes Konfigurationsdatei)
 
 ### MCP-Server registrieren
 

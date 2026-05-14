@@ -42,7 +42,7 @@ RESULT=$(curl -s -X POST "$MUNINN_URL/api/engrams" \
     '{concept: $c, content: $x, vault: "hermes", tags: ["cron","snapshot","'$HOSTNAME'"], type: "event"}')" 2>/dev/null)
 
 # Pruefe Ergebnis
-ID=$(echo "$RESULT" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('id','FAIL'))" 2>/dev/null)
+ID=$(echo "$RESULT" | jq -r '.id // "FAIL"' 2>/dev/null)
 if [ "$ID" = "FAIL" ] || [ -z "$ID" ]; then
     echo "ERR: Speichern fehlgeschlagen: $RESULT"
     exit 1
