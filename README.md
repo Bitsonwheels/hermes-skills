@@ -1,4 +1,4 @@
-# 🧠 Hermes Skills by Bitsonwheels
+# 🧠 Hermes Skills
 
 Skills für [Hermes Agent](https://hermes-agent.nousresearch.com) rund um **MuninnDB** — persistentes, KI-natives Memory.
 
